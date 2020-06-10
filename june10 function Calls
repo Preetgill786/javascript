@@ -1,0 +1,12 @@
+//reinforce the concept that in a loop(for or while)
+//we can put calls to functions in the execution context
+//let's do an example
+
+function a(){ }
+function b(){ }
+function carryOnJatta(){ return true; }
+
+for(a(); carryOnJatta() ; b()){
+    console.log("Ki tympass aa");
+
+}
