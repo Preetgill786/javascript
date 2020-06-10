@@ -10,3 +10,14 @@ for(a(); carryOnJatta() ; b()){
     console.log("Ki tympass aa");
 
 }
+
+let counter = 0;
+function peanut(){
+     counter++;
+    if(counter >10){return false;}
+    return true;
+}
+while(peanut()){
+
+console.log(counter);
+}
