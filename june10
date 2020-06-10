@@ -35,7 +35,16 @@ return sum;
 }
 
 document.write("sum of numbers from 1000 to 100:",a());
+// using while loop
 
+sum = 0;
+   i=1000;
+   while(i> 100){
+    sum += i;
+    i -= 17
+   }
+
+   alert("The sum is:" +sum);
     </script>
 </body>
 </html>
