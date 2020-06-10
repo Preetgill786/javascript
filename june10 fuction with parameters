@@ -1,0 +1,15 @@
+function a(startNumber,endNumber,stepNumber){
+var sum =0;
+//   startNumber = 1000;
+//   endNumber = 100;
+//   stepNumber = 17;
+  currentNumber = startNumber;
+
+   while(currentNumber >= endNumber){
+    sum += currentNumber;
+    currentNumber -= stepNumber;
+   }
+return sum;
+}
+   
+  console.log("sum of numbers from 1000 to 100:",a(1000,100,17));
