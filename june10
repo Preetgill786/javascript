@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preet's work</title>
+</head>
+<body>
+    <h1>Hello..!!</h1>
+
+    
+
+    <script>
+        // write some JS code to add numbers 1000 down to 100 step down by 17   
+     // add up each number you step over  
+      // display the result
+function a(){
+  var sum =0;
+  startNumber = 1000;
+  endNumber = 100;
+  stepNumber = -17;
+  currentNumber = startNumber;
+    for(;currentNumber>100;){
+        
+        sum = sum + currentNumber;
+        currentNumber += stepNumber;
+        
+         
+    
+
+
+
+}
+return sum;
+}
+
+document.write("sum of numbers from 1000 to 100:",a());
+
+    </script>
+</body>
+</html>
